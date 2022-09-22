@@ -1,4 +1,4 @@
-
+import { Link } from"react-router-dom";
 
 const ItemList = () => {
     return(
@@ -688,7 +688,7 @@ const ItemList = () => {
       </div>
     </div>
     <div className="btn-box">
-      <a href="">View More</a>
+      <Link to="/menu" >View More</Link>
     </div>
   </div>
 </section>
